@@ -197,12 +197,19 @@ class BlueOceanPay
      * @param string $key 密钥
      * @return string 签名
      */
-    public function sign($data, $key) {
-        if (isset($data['sign'])) unset($data['sign']);
+    function sign($data, $key) {
+        $ignoreKeys = ['sign', 'key'];
         ksort($data);
-        $uri = http_build_query($data);
-        $uri = $uri . '&key=' . $key;
-        return strtoupper(md5($uri));
+        $signString = '';
+        foreach ($data as $k => $v) {
+            if (in_array($k, $ignoreKeys)) {
+                unset($data[$k]);
+                continue;
+            }
+            $signString .= "{$k}={$v}&";
+        }
+        $signString .= "key={$key}";
+        return strtoupper(md5($signString));
     }
 
     /**
