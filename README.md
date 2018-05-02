@@ -1,8 +1,7 @@
 ## Install
 
-###（适用于 Linux)：
-1.  进入 ecshop 安装根目执行：git clone https://github.com/blueoceanpay/ecshop-payment-extension.git
+### (適用於 Linux)
+1. 進入 ecshop 安裝根目執行：git clone https://github.com/blueoceanpay/ecshop-payment-extension.git
 2. cd ecshop-payment-extension
-3. 执行　./install.sh
-4. 安装完毕！
-
+3. 執行　./install.sh
+4. 安裝完畢！
