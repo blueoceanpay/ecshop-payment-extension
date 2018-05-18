@@ -6,7 +6,7 @@ $_LANG['blueoceanpay_desc'] = 'BlueOceanPay(www.blueoceanpay.com) <br/><a href="
 $_LANG['merchant_id'] = 'BlueOceanPay Merchant ID';
 $_LANG['public_key'] = 'Merchant Public Key';
 $_LANG['pay_button'] = 'Payment Now';
-$_LANG['pay_help'] = 'Please use mobile WeChat, scan the QR code to complete the payment';
+$_LANG['pay_help'] = 'Please use mobile WeChat or Alipay, scan the QR code to complete the payment';
 
 //币种
 $_LANG['blueoceanpay_currency'] = 'Choose Currency';

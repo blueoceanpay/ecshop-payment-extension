@@ -6,7 +6,7 @@ $_LANG['blueoceanpay_desc'] = '蓝海支付(www.blueoceanpay.com) 是新兴的�
 $_LANG['merchant_id'] = '蓝海商户 ID';
 $_LANG['public_key'] = '商户公钥（Key）';
 $_LANG['pay_button'] = '立即支付';
-$_LANG['pay_help'] = '请使用手机微信，扫描二维码完成支付';
+$_LANG['pay_help'] = '请使用手机微信或支付宝，扫描二维码完成支付';
 
 //币种
 $_LANG['blueoceanpay_currency'] = '选择币种';
